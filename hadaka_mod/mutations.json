@@ -1,0 +1,29 @@
+[
+  {
+    "type": "mutation",
+    "id": "HADAKA_EXPERT",
+    "name": "持たざる者",
+    "points": 2,
+    "description": "服を着ない状態で戦闘する術に非常に長けており、脱げば脱ぐほど強くなります。全裸でゾンビたちを相手に大立ち回りするさまは紛うことなき変態です。",
+    "starting_trait": true,
+    "valid": false
+  },
+  {
+    "type": "mutation",
+    "id": "HADAKA_NUDIST",
+    "name": "裸体主義者",
+    "points": -5,
+    "description": "服を着ていると落ち着いて生活することができません。着ている服をランダムで脱ぐことがあります。",
+    "starting_trait": true,
+    "valid": false
+  },
+  {
+    "type": "mutation",
+    "id": "HADAKA_EXHIBITIONISM",
+    "name": "露出狂",
+    "points": 0,
+    "description": "あなたは裸でいることに強い興奮を覚えます。筋力、器用、感覚に+2のボーナスを得ますが、服を着ていると能力値が大きくダウンします。",
+    "starting_trait": true,
+    "valid": false
+  }
+]
