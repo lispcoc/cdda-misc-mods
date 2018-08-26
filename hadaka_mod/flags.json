@@ -9,6 +9,6 @@
     "id": "HADAKA_EXPERT_FIT",
     "type": "json_flag",
     "context": ["ARMOR", "TOOL_ARMOR"],
-    "info": "この装備は<info>まるで裸でいるように動きを阻害しません</info>。"
+    "info": "この装備は<info>まるで裸のような着心地です</info>。"
   }
 ]

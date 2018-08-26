@@ -1,0 +1,83 @@
+[
+  {
+    "type": "item_group",
+    "id": "pawn",
+    "items": [["bikini_armor", 1], ["reinforced_glass_armor", 1]]
+  },
+  {
+    "type": "item_group",
+    "id": "museum_armor",
+    "items": [["bikini_armor", 20], ["reinforced_glass_armor", 10]]
+  },
+  {
+    "id": "soa_plate",
+    "type": "item_group",
+    "subtype": "collection",
+    "items": [["bikini_armor", 20], ["reinforced_glass_armor", 10]]
+  },
+  {
+    "type": "item_group",
+    "id": "vault",
+    "items": [["repulsive_sield_armor_off", 3]]
+  },
+  {
+    "type": "item_group",
+    "id": "mil_armor",
+    "items": [["repulsive_sield_armor_off", 3]]
+  },
+  {
+    "type": "item_group",
+    "id": "mil_armor_torso",
+    "items": [["repulsive_sield_armor_off", 5]]
+  },
+  {
+    "type": "item_group",
+    "id": "military",
+    "items": [["repulsive_sield_armor_off", 5]]
+  },
+  {
+    "type": "item_group",
+    "id": "rare",
+    "items": [["repulsive_sield_armor_off", 5]]
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "mon_zombie_grenadier_elite",
+    "entries": [
+      { "item": "repulsive_sield_armor_off", "damage": [1, 4], "prob": 5 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "mon_zombie_bio_op_death_drops",
+    "entries": [
+      { "item": "repulsive_sield_armor_off", "damage": [1, 4], "prob": 5 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "mon_zombie_grenadier",
+    "entries": [
+      { "item": "repulsive_sield_armor_off", "damage": [1, 4], "prob": 2 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "mon_zombie_soldier_death_drops",
+    "entries": [
+      { "item": "repulsive_sield_armor_off", "damage": [1, 4], "prob": 2 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "mon_zombie_survivor_death_drops",
+    "entries": [
+      { "item": "repulsive_sield_armor_off", "damage": [1, 4], "prob": 2 }
+    ]
+  }
+]

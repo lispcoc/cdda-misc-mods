@@ -1,0 +1,75 @@
+[
+  {
+    "type": "profession",
+    "ident": "hadaka_stranger",
+    "name": {
+      "male": "裸の王子様",
+      "female": "裸の姫様"
+    },
+    "description": "とある異世界で高貴なる身分であったあなたは、危機に瀕する世界を救うべく召喚に応じ馳せ参じました。世が世なら異世界の知識を駆使して活躍できたでしょうが、この世界ではあなたの常識は通用しないようです・・・。",
+    "points": 0,
+    "traits": ["HADAKA_EXPERT", "HADAKA_EXHIBITIONISM", "PROF_HADAKA_STRANGER"],
+    "skills": [
+      {
+        "level": 1,
+        "name": "melee"
+      },
+      {
+        "level": 1,
+        "name": "dodge"
+      }
+    ],
+    "items": {
+      "both": {
+        "items": [
+          "bikini_armor",
+          "spear_copper",
+          "crown_golden",
+          "knee_high_boots"
+        ],
+        "entries": []
+      }
+    }
+  },
+  {
+    "type": "profession",
+    "ident": "hadaka_nudist",
+    "name": "ヌーディスト",
+    "description": "ついにニューイングランド全域で裸での生活が認められるようになりました！大喜びで外に繰り出したあなたですが、その環境は裸で過ごすにはあまりにも過酷なようです。",
+    "points": -6,
+    "traits": ["HADAKA_NUDIST"],
+    "skills": [],
+    "items": {
+      "both": {
+        "items": [],
+        "entries": []
+      }
+    }
+  },
+  {
+    "type": "profession",
+    "ident": "hadaka_expert",
+    "name": "持たざる者",
+    "description": "もはや失うものは何もありません。世界の破滅を防ぐため、一流の拳法家であるあなたは裸一貫で旅立ちます。",
+    "points": 3,
+    "traits": ["HADAKA_EXPERT", "MARTIAL_ARTS2"],
+    "skills": [
+      {
+        "level": 2,
+        "name": "melee"
+      },
+      {
+        "level": 2,
+        "name": "unarmed"
+      },
+      {
+        "level": 2,
+        "name": "dodge"
+      }
+    ],
+    "items": {
+      "male": ["briefs"],
+      "female": ["bra", "panties"]
+    }
+  }
+]

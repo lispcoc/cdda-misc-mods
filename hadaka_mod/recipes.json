@@ -1,0 +1,107 @@
+[
+  {
+    "result": "bikini_armor",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SUIT",
+    "skill_used": "fabrication",
+    "difficulty": 4,
+    "time": 280000,
+    "book_learn": [["textbook_armwest", 5], ["mag_animecon", 3]],
+    "qualities": [
+      { "id": "ANVIL", "level": 3 },
+      { "id": "HAMMER", "level": 3 },
+      { "id": "CHISEL", "level": 3 }
+    ],
+    "tools": [
+      [["tongs", -1]],
+      [["swage", -1]],
+      [["forge", 40], ["oxy_torch", 8]]
+    ],
+    "components": [
+      [["steel_lump", 2], ["steel_chunk", 8]],
+      [["fur", 2], ["tanned_pelt", 1], ["leather", 2], ["tanned_hide", 1]]
+    ]
+  },
+  {
+    "result": "survivor_bikini_armor",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SUIT",
+    "skill_used": "tailor",
+    "difficulty": 4,
+    "skills_required": ["fabrication", 6],
+    "time": 90000,
+    "autolearn": true,
+    "using": [["sewing_standard", 100]],
+    "tools": [
+      [
+        ["welder", 28],
+        ["welder_crude", 42],
+        ["soldering_iron", 42],
+        ["toolset", 42]
+      ]
+    ],
+    "components": [
+      [["rag", 6]],
+      [["bag_plastic", 4]],
+      [
+        ["chestrig", 1],
+        ["legrig", 1],
+        ["vest", 1],
+        ["tool_belt", 1],
+        ["ragpouch", 2],
+        ["leather_pouch", 1],
+        ["dump_pouch", 1],
+        ["purse", 1],
+        ["fanny", 1]
+      ],
+      [["duct_tape", 40]],
+      [
+        ["kevlar", 1],
+        ["modularvest", 1],
+        ["swat_armor", 1],
+        ["kevlar_plate", 5]
+      ]
+    ]
+  },
+  {
+    "result": "reinforced_glass_armor",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SUIT",
+    "skill_used": "fabrication",
+    "difficulty": 7,
+    "skills_required": [["mechanics", 4]],
+    "time": 560000,
+    "book_learn": [
+      ["textbook_armwest", 8],
+      ["mag_animecon", 6],
+      ["glassblowing_book", 6]
+    ],
+    "qualities": [
+      { "id": "ANVIL", "level": 3 },
+      { "id": "HAMMER", "level": 3 },
+      { "id": "CHISEL", "level": 3 }
+    ],
+    "tools": [
+      [["tongs", -1]],
+      [["swage", -1]],
+      [["forge", 400], ["oxy_torch", 80]]
+    ],
+    "components": [
+      [["reinforced_glass_sheet", 4], ["reinforced_glass_pane", 16]]
+    ]
+  },
+  {
+    "result": "bandage_armor",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SUIT",
+    "skill_used": "tailor",
+    "autolearn": true,
+    "time": 1000,
+    "components": [[["bandages", 3]]],
+    "flags": ["BLIND_EASY"]
+  }
+]

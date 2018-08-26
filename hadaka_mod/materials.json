@@ -1,0 +1,17 @@
+[
+  {
+    "type": "material",
+    "ident": "repulsion",
+    "name": "斥力場",
+    "density": 52,
+    "bash_resist": 10,
+    "cut_resist": 2,
+    "acid_resist": 0,
+    "fire_resist": 0,
+    "elec_resist": 0,
+    "chip_resist": 0,
+    "dmg_adj": ["100%", "75%", "50%", "25%"],
+    "bash_dmg_verb": "squished",
+    "cut_dmg_verb": "cut"
+  }
+]

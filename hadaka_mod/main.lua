@@ -144,7 +144,7 @@ end
 function MOD.nudist_effect_on_minute()
   local bp_rate = {
     bp_torso = 1,
-    bp_head = 0.1,
+    bp_head = 0,
     bp_eyes = 0,
     bp_mouth = 0,
     bp_arm_l = 1,
@@ -195,6 +195,13 @@ function MOD.nudist_effect_on_minute()
 end
 
 --[[
+  特質：異世界の使者の処理
+]]
+function MOD.hadaka_stranger_effect_on_created()
+  player:add_effect(efftype_id("hadaka_stranger"), DAYS(7 * 8))
+end
+
+--[[
   メイン処理
 ]]
 MOD.traits_on_turn = {
@@ -204,6 +211,10 @@ MOD.traits_on_turn = {
 
 MOD.traits_on_minute = {
   HADAKA_NUDIST = MOD.nudist_effect_on_minute
+}
+
+MOD.traits_on_created = {
+  PROF_HADAKA_STRANGER = MOD.hadaka_stranger_effect_on_created
 }
 
 function MOD.on_turn_passed()
@@ -229,6 +240,11 @@ function MOD.on_game_loaded()
 end
 
 function MOD.on_new_player_created()
+  for trait_name, trait_function_name in pairs(MOD.traits_on_created) do
+    if (player:has_base_trait(trait_id(trait_name))) then
+      trait_function_name()
+    end
+  end
 end
 
 function MOD.on_skill_increased()

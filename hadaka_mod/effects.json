@@ -4,7 +4,6 @@
     "id": "exhibitionism",
     "name": [""],
     "desc": [""],
-    "rating": "good",
     "max_intensity": 7,
     "int_dur_factor": 1000,
     "base_mods": {
@@ -16,6 +15,18 @@
       "str_mod": [-1],
       "dex_mod": [-1],
       "per_mod": [-1]
+    }
+  },
+  {
+    "type": "effect_type",
+    "id": "hadaka_stranger",
+    "name": ["慣れない世界"],
+    "desc": ["元居た世界の常識が通用しません。"],
+    "rating": "bad",
+    "max_intensity": 10,
+    "int_dur_factor": 100800,
+    "scaling_mods": {
+      "int_mod": [-1]
     }
   }
 ]

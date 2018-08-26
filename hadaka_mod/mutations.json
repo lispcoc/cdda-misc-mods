@@ -22,8 +22,18 @@
     "id": "HADAKA_EXHIBITIONISM",
     "name": "露出狂",
     "points": 0,
-    "description": "あなたは裸でいることに強い興奮を覚えます。筋力、器用、感覚に+2のボーナスを得ますが、服を着ていると能力値が大きくダウンします。",
+    "description": "あなたは裸でいることに強い高揚感を覚えます。筋力、器用、感覚に+2のボーナスを得ますが、服を着ていると能力値が大きくダウンします。",
     "starting_trait": true,
     "valid": false
+  },
+  {
+    "type": "mutation",
+    "id": "PROF_HADAKA_STRANGER",
+    "name": "異世界の使者",
+    "points": 0,
+    "description": "あなたは何らかの理由で別の世界からこの世界に来ています。慣れるまでは時間がかかりそうです・・・。",
+    "valid": false,
+    "purifiable": false,
+    "profession": true
   }
 ]
