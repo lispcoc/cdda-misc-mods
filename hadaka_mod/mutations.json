@@ -32,6 +32,7 @@
     "name": "異世界の使者",
     "points": 0,
     "description": "あなたは何らかの理由で別の世界からこの世界に来ています。慣れるまでは時間がかかりそうです・・・。",
+    "starting_trait": false,
     "valid": false,
     "purifiable": false,
     "profession": true

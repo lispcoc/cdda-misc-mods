@@ -1,6 +1,6 @@
 local MOD = {
   id = "hadaka_mod",
-  debug_enable = true
+  debug_enable = false
 }
 
 mods[MOD.id] = MOD

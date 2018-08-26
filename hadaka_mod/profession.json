@@ -1,6 +1,47 @@
 [
   {
     "type": "profession",
+    "ident": "hadaka_expert",
+    "name": "持たざる者",
+    "description": "もはや失うものは何もありません。世界の破滅を防ぐため、一流の拳法家であるあなたは裸一貫で旅立ちます。",
+    "points": 3,
+    "traits": ["HADAKA_EXPERT", "MARTIAL_ARTS2"],
+    "skills": [
+      {
+        "level": 2,
+        "name": "melee"
+      },
+      {
+        "level": 2,
+        "name": "unarmed"
+      },
+      {
+        "level": 2,
+        "name": "dodge"
+      }
+    ],
+    "items": {
+      "male": ["briefs"],
+      "female": ["bra", "panties"]
+    }
+  },
+  {
+    "type": "profession",
+    "ident": "hadaka_nudist",
+    "name": "ヌーディスト",
+    "description": "ついにニューイングランド全域で裸での生活が認められるようになりました！大喜びで外に繰り出したあなたですが、その環境は裸で過ごすにはあまりにも過酷なようです。",
+    "points": -6,
+    "traits": ["HADAKA_NUDIST"],
+    "skills": [],
+    "items": {
+      "both": {
+        "items": [],
+        "entries": []
+      }
+    }
+  },
+  {
+    "type": "profession",
     "ident": "hadaka_stranger",
     "name": {
       "male": "裸の王子様",
@@ -29,47 +70,6 @@
         ],
         "entries": []
       }
-    }
-  },
-  {
-    "type": "profession",
-    "ident": "hadaka_nudist",
-    "name": "ヌーディスト",
-    "description": "ついにニューイングランド全域で裸での生活が認められるようになりました！大喜びで外に繰り出したあなたですが、その環境は裸で過ごすにはあまりにも過酷なようです。",
-    "points": -6,
-    "traits": ["HADAKA_NUDIST"],
-    "skills": [],
-    "items": {
-      "both": {
-        "items": [],
-        "entries": []
-      }
-    }
-  },
-  {
-    "type": "profession",
-    "ident": "hadaka_expert",
-    "name": "持たざる者",
-    "description": "もはや失うものは何もありません。世界の破滅を防ぐため、一流の拳法家であるあなたは裸一貫で旅立ちます。",
-    "points": 3,
-    "traits": ["HADAKA_EXPERT", "MARTIAL_ARTS2"],
-    "skills": [
-      {
-        "level": 2,
-        "name": "melee"
-      },
-      {
-        "level": 2,
-        "name": "unarmed"
-      },
-      {
-        "level": 2,
-        "name": "dodge"
-      }
-    ],
-    "items": {
-      "male": ["briefs"],
-      "female": ["bra", "panties"]
     }
   }
 ]
