@@ -2,7 +2,7 @@
   {
     "type": "profession",
     "ident": "hadaka_expert",
-    "name": "持たざる者",
+    "name": "裸の英雄",
     "description": "もはや失うものは何もありません。世界の破滅を防ぐため、一流の拳法家であるあなたは裸一貫で旅立ちます。",
     "points": 3,
     "traits": ["HADAKA_EXPERT", "MARTIAL_ARTS2"],
